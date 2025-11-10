@@ -1,0 +1,30 @@
+PS D:\Midterm> & C:/Users/geriy/anaconda3/python.exe d:/Midterm/main.py
+📂 Memuat dataset...
+Total data awal: 88800
+✅ Total data digunakan: 13000 (26 huruf × 500)
+⚙ Ekstraksi fitur HOG...
+HOG Processing: 100%|█████████████████████████████████| 13000/13000 [00:04<00:00, 2916.34it/s]
+✅ Total fitur HOG: 432
+🔍 Melakukan reduksi dimensi dengan PCA...
+✅ Dimensi setelah PCA: 141 (dari 432)
+🚀 Optimasi parameter SVM (Grid Search)...
+Fitting 3 folds for each of 16 candidates, totalling 48 fits
+
+🏆 Parameter terbaik: {'C': 10, 'gamma': 0.02, 'kernel': 'rbf'}
+🕐 Waktu training GridSearch: 3.28 menit
+
+🧪 Menjalankan LOOCV FULL 13.000 data...
+⚠ Proses ini sangat berat. Bisa memakan waktu berjam-jam hingga berhari-hari.
+
+🧪 Menjalankan LOOCV FULL 13.000 data...
+⚠ Proses ini sangat berat. Bisa memakan waktu berjam-jam hingga berhari-hari.
+🧪 Menjalankan LOOCV FULL 13.000 data...
+⚠ Proses ini sangat berat. Bisa memakan waktu berjam-jam hingga berhari-hari.
+⚠ Proses ini sangat berat. Bisa memakan waktu berjam-jam hingga berhari-hari.
+   Pastikan komputer memiliki RAM besar dan tidak sedang dipakai pekerjaan lain.
+   Pastikan komputer memiliki RAM besar dan tidak sedang dipakai pekerjaan lain.
+LOOCV Full 13K: 100%|████████████████████████████████| 13000/13000 [13:28:24<00:00,  3.73s/it] 
+
+📈 Akurasi LOOCV Full: 86.68%
+⏱ Total Waktu LOOCV: 13.47 jam
+📁 Hasil LOOCV Full disimpan di: D:\Midterm\output\loocv_full_13k_result.txt
