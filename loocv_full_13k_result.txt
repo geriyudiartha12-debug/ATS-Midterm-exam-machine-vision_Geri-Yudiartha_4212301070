@@ -1,0 +1,3 @@
+=== LOOCV Full 13.000 Sampel ===
+Akurasi LOOCV Full: 86.68%
+Total Waktu: 13.47 jam
